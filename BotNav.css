@@ -1,0 +1,33 @@
+#botNav{
+    display:flex;
+    justify-content: space-between;
+    line-height: 25px;
+    background-color: rgb(32, 29, 29);
+    padding-top:10px;
+    position: sticky;
+    bottom:10px;
+}
+#botNav :first-child{
+    margin-left:1%;
+    padding-left:1%;
+    color:white;
+}
+#botNav :first-child>p{
+    display: inline-flex;
+    margin-left: 13px;
+}
+#botNav :first-child>a{
+    color:rgb(117, 153, 208);
+    font-weight: bold;
+}
+#botNav :last-child{
+    color:white;
+    margin-right:15px ;
+}
+#botNav :last-child>button{
+    color:black;
+    font-weight: bold;
+    padding:1% 3%;
+    display: block;
+    margin:auto;
+}
