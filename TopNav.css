@@ -1,0 +1,159 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#topNav{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding:0.5% 0.5%;
+    width: 100vw;
+    position:sticky;
+    top:0px;
+}
+#topNav>img{
+    width:15rem;
+    height:1.5rem; 
+    margin-left:8vw;
+}
+#topNav>button{
+    margin-right:13vw;
+    background-color: #0a84ff;
+    color:white;
+    font-size: 0.8rem;
+    padding:0.3% 1%;
+    border-radius: 8px;
+    cursor:pointer;
+}
+.signin{
+    width:30vw;
+    height:50vh;
+    background-color: rgb(70, 63, 63);
+    position: absolute;
+    top:12vw;
+    left:35vw;
+    z-index: 1;
+    border-radius: 15px;
+}
+.signin :first-child{
+    margin:3%;
+    font-size: 35px;
+    display: inline;
+    color:white;
+    cursor: pointer;
+}
+.signin>img{
+    width:6rem;
+    height:7vh;
+    display: block;
+    margin:auto;
+    margin-top:-9px;
+}
+body{
+    background-color: rgb(49, 45, 45);
+}
+body>img{
+    display: block;
+    margin:auto;
+    width:78vw;
+}
+.signin>h3{
+    color:white;
+    font-weight: lighter;
+    font-size: 25px;
+    text-align: center;
+}
+.signin>h3+p{
+    color: white;
+    font-size:1.1rem;
+    text-align: center;
+    margin-top:2%;
+}
+.signin>input,#signin>p+input{
+    display: block;
+    font-size: 20px;
+    margin:auto;
+    margin-top: 3%;
+}
+.signin>button{
+  position: absolute;
+  top:175px;
+  left:410px;
+  padding:2%;
+  cursor: pointer;
+  border:0px;
+  background-color: black;
+  color:white;
+ }
+ #try{
+    top:210px;
+ }
+ .signin>button~p{
+    margin-top:2%;
+    color:rgb(71, 126, 215);
+    text-align: center;
+    font-weight:bold;
+ }
+.signin>button+p{
+    margin-top:30%;
+}
+.signin>button~p:hover{
+    color:blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.signin>button+p+p+input{
+    margin-top: -37%;
+}
+form>#signUp>img{
+    width:3rem;
+    height:2rem;
+    margin-left:82%;
+}
+form>#signUp :nth-child(2){
+    margin-top: -10px;
+}
+form>#signUp>input~input{
+    margin-top:5%;
+}
+form>#signUp>.checkDiv1{
+    display: flex;
+    margin-top: 2%;
+    padding:2% 15%;
+    font-size:20px;
+    color:white;
+}
+form>#signUp>.checkDiv1>span{
+    margin:10px 30px;
+}
+form>#signUp>p{
+    font-size: 12px;
+    color:white;
+    margin-left:5%;
+}
+form>#signUp>p>a{
+    color:#0a84ff;
+    font-size: 12px;
+    margin-left: 4px;
+}
+#signDat{
+    background-color: #0a84ff;
+    position:absolute;
+    top:69.5vh;
+    left:58.5vw;
+    font-size: 20px;
+    padding:5px 20px;
+    border: 0;
+    color:white;
+    border-radius:5px;
+    z-index: 1;
+}
+.cancelBox{
+    position:absolute;
+    top:26vh;
+    left:36vw;
+    z-index:2;
+    font-size: 35px;
+    color:white;
+    cursor: pointer;
+}
