@@ -10,6 +10,7 @@
     width: 100vw;
     position:sticky;
     top:0px;
+    z-index: 2;
 }
 #topNav>img{
     width:15rem;

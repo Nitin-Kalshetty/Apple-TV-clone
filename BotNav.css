@@ -5,7 +5,7 @@
     background-color: rgb(32, 29, 29);
     padding-top:10px;
     position: sticky;
-    bottom:10px;
+    bottom:0px;
 }
 #botNav :first-child{
     margin-left:1%;
