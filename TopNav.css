@@ -77,9 +77,9 @@ body>img{
     margin-top: 3%;
 }
 .signin>button{
-  position: absolute;
-  top:175px;
-  left:410px;
+  position:relative;
+  top:-30px;
+  left:76%;
   padding:2%;
   cursor: pointer;
   border:0px;
@@ -140,7 +140,7 @@ form>#signUp>p>a{
 #signDat{
     background-color: #0a84ff;
     position:absolute;
-    top:69.5vh;
+    top:68.5vh;
     left:58.5vw;
     font-size: 20px;
     padding:5px 20px;
@@ -158,3 +158,21 @@ form>#signUp>p>a{
     color:white;
     cursor: pointer;
 }
+
+
+@media all and (min-width: 500px) and (max-width: 1000px) {
+    .signin>button{
+        left:90%;
+    }
+    input{
+        position:relative;
+    }
+  
+  
+  
+    }
+    /* Small screens */
+    @media all and (min-width: 150px) and (max-width: 499px) {
+    
+    
+    }
