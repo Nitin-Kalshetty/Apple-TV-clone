@@ -19,6 +19,7 @@
 #botNav :first-child>a{
     color:rgb(117, 153, 208);
     font-weight: bold;
+    text-decoration: none;
 }
 #botNav :last-child{
     color:white;

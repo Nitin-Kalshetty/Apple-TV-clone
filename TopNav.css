@@ -1,3 +1,8 @@
+body{
+    background-color: rgb(49, 45, 45);
+}
+
+
 *{
     margin:0px;
     padding:0px;
@@ -50,9 +55,7 @@
     margin:auto;
     margin-top:-9px;
 }
-body{
-    background-color: rgb(49, 45, 45);
-}
+
 body>img{
     display: block;
     margin:auto;
