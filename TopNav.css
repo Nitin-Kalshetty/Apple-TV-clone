@@ -1,8 +1,6 @@
 body{
     background-color: rgb(49, 45, 45);
 }
-
-
 *{
     margin:0px;
     padding:0px;
@@ -32,11 +30,11 @@ body{
     cursor:pointer;
 }
 .signin{
-    width:30vw;
-    height:50vh;
+    width:35vw;
+    height:65vh;
     background-color: rgb(70, 63, 63);
     position: absolute;
-    top:12vw;
+    top:7vw;
     left:35vw;
     z-index: 1;
     border-radius: 15px;
@@ -81,8 +79,8 @@ body>img{
 }
 .signin>button{
   position:absolute;
-  top:18vh;
-  left:45vh;
+  top:21.8vh;
+  left:54vh;
   padding:2%;
   cursor: pointer;
   border:0px;
@@ -99,7 +97,7 @@ body>img{
     font-weight:bold;
  }
 .signin>button+p{
-    margin-top:30%;
+    margin-top:20%;
 }
 .signin>button~p:hover{
     color:blue;
@@ -107,7 +105,7 @@ body>img{
     cursor: pointer;
 }
 .signin>button+p+p+input{
-    margin-top: -37%;
+    margin-top: -27%;
 }
 form>#signUp>img{
     width:3rem;
@@ -138,13 +136,13 @@ form>#signUp>p{
 form>#signUp>p>a{
     color:#0a84ff;
     font-size: 12px;
-    margin-left: 4px;
+    margin-left: 0px;
 }
 #signDat{
     background-color: #0a84ff;
     position:absolute;
-    top:68.5vh;
-    left:58.5vw;
+    top:71.5vh;
+    left:56.5vw;
     font-size: 20px;
     padding:5px 20px;
     border: 0;
@@ -154,7 +152,7 @@ form>#signUp>p>a{
 }
 .cancelBox{
     position:absolute;
-    top:26vh;
+    top:16vh;
     left:36vw;
     z-index:2;
     font-size: 35px;
